@@ -1,6 +1,6 @@
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 
-MAINTAINER Leo Unbekandt <leo@scalingo.com>
+MAINTAINER Ivan Golubnichiy <h1kkan@itsyndicate.org>
 
 RUN adduser --system --home /var/lib/munin --shell /bin/false --uid 1103 --group munin
 

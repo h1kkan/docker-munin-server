@@ -105,7 +105,7 @@ fi
 # start cron
 /usr/sbin/cron
 # start local munin-node
-/usr/sbin/munin-node
+#/usr/sbin/munin-node
 echo "Using the following munin nodes:"
 echo $NODES
 # start nginx
